@@ -110,5 +110,6 @@ var firstlast = function(sentence) {
 
   return letter + sentence + last + first;
 }
-var end = firstlast(sentence);
+var end = firstlast(sentence).split("").reverse().join("");
+
 console.log(end);
